@@ -1,0 +1,19 @@
+FLOWER SHOP REPORTS
+
+REPORT 1 (volume-first scoring): restock list, stock <= 10, target 50
+Flower     Stock  Order  Score  Cost(cents)
+Sunflower      0     50    500       225000
+Lily           8     42    420       359100
+Total cost (cents): 584100
+
+REPORT 1 (value-first scoring): restock list, stock <= 10, target 50
+Flower     Stock  Order  Score  Cost(cents)
+Lily           8     42    942       359100
+Sunflower      0     50    550       225000
+Total cost (cents): 584100
+
+REPORT 2: revenue by flower (standard delivery), excluding Lily
+Flower     Orders  Stems      Revenue
+Tulip           2     32      4208.00
+Rose            1     10      2550.00
+Total revenue: 6758.00

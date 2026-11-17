@@ -1,0 +1,5 @@
+[
+  { "flower": "Rose", "stock": 100 },
+  { "flower": "Lily", "stock": 8 },
+  { "flower": "Sunflower", "stock": 0 }
+]
